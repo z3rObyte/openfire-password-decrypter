@@ -5,7 +5,7 @@ import binascii
 import sys
 
 if len(sys.argv) != 3:
-    print(f"Usage: {sys.argv[0]} encryptedPassword Key")
+    print(f"Usage: {sys.argv[0]} encryptedPassword passwordKey")
     sys.exit(1)
 
 def decrypt_openfirepass(ciphertext, key):
