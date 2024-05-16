@@ -12,6 +12,6 @@ source ./.env/bin/activate
 pip install -r requirements.txt
 ```
 ### Usage
-```python
+```bash
 python3 decrypter.py encryptedPassword PasswordKey
 ```
